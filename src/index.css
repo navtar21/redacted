@@ -1,0 +1,13 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1, h2 {
+        font-family: 'Nunito', sans-serif;
+    }
+    p, a {
+        font-family: 'Yantramanav', sans-serif;
+    }
+}
