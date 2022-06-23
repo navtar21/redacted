@@ -51,22 +51,13 @@ function Nav() {
               <span className="font-bold mr-1 text-White">03 TOURNOIS</span>
             </Link>
           </li>
-          <li className="sm:inline-block  sm:ml-10 ml-5 sm:my-0 my-6 border-b-2 border-Gray hover:border-White duration-300">
-            <Link
-              to="/history"
-              className="text- mr-25 cursor-pointer font-Barlow font-normal text-sm inline-block sm:py-5 py-3"
-              onClick={() => setNavOpen(!navOpen)}
-            >
-              <span className="font-bold mr-1 text-White">04 HISTOIRE</span>
-            </Link>
-          </li>
           <li className="sm:inline-block  sm:ml-10 ml-5 sm:my-0 my-6 border-b-2 border-Gray hover:border-White duration-300 mr-9">
             <Link
               to="/youtube"
-              className="text- mr-25 cursor-pointer font-Barlow font-normal text-sm inline-block sm:py-5 py-3 "
+              className="text- mr-25 cursor-pointer font-Barlow font-normal text-sm inline-block sm:py-5 py-3"
               onClick={() => setNavOpen(!navOpen)}
             >
-              <span className="font-bold mr-1 text-White">05 YOUTUBE</span>
+              <span className="font-bold mr-1 text-White">04 YOUTUBE</span>
             </Link>
           </li>
         </ul>

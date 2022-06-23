@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 function Recruitment() {
   return (
     <>
-      <div>
+      <div class="border-x-4 border-black">
         <Nav />
         <div className="bg-Silver">
           <h1 className="text-7xl text-center pt-3">Qui sommes nous? 🤔</h1>
